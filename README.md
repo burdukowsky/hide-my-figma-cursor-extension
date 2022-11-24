@@ -1,7 +1,11 @@
 # Hide my Figma cursor
 
 Extension for Chrome & Firefox.
-Hides your Figma cursor for another users.
+Hides your Figma cursor from other users.
+
+## ⚠ Warning ⚠
+Extension may break the multiplayer functionality!
+Disable it before using multiplayer!
 
 ## Commands
 
