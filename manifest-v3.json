@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Hide my Figma cursor",
+  "description": "Hides your Figma cursor for another users.",
+  "author": "Stanislav Burdukowsky",
+  "homepage_url": "https://github.com/burdukowsky/hide-my-figma-cursor-extension",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.figma.com/*"
+      ],
+      "js": [
+        "content/content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "lib/socket-sniffer.js"
+      ],
+      "matches": [
+        "https://www.figma.com/*"
+      ]
+    }
+  ]
+}
