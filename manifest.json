@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Hide my Figma cursor",
-  "description": "Hides your Figma cursor for another users.",
+  "description": "Hides your Figma cursor from other users.",
   "author": "Stanislav Burdukowsky",
   "homepage_url": "https://github.com/burdukowsky/hide-my-figma-cursor-extension",
   "version": "1.0",
